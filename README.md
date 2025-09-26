@@ -1,5 +1,4 @@
 ## Retail-Analytics-Dashboard
-This project delivers a comprehensive, five-panel business intelligence dashboard designed to empower retail stakeholders with actionable insights across key operational domains: Customer Behavior, Transaction Performance, Product Returns, Store Efficiency, and Product Portfolio Analysis.
 
 ## 📊 Project Overview
 This comprehensive data analysis dashboard project provides interactive visualizations across five key business areas: Customer Analysis, Transaction Analysis, Returns Analysis, Store Analysis, and Product Analysis. Built using Power BI, this solution enables data-driven decision making through intuitive and insightful dashboards.
@@ -64,11 +63,12 @@ This comprehensive data analysis dashboard project provides interactive visualiz
 
 ### Step 1: Data Collection & Importing
 **Data Sources**:
-- Customer database (CSV/Excel/SQL Database)
-- Transaction records
-- Returns database
-- Store information
-- Product catalog
+- Customers
+- Transactions
+- Returns
+- Stores
+- Products
+- Region's 
 
 **Import Methods**:
 1. **Power BI Data Import**:
@@ -192,11 +192,12 @@ Return Rate = DIVIDE([Total Returns], [Total Sales])
 Dashboard Project/
 │
 ├── Data/
-│   ├── Customer_Data.xlsx
-│   ├── Transaction_Data.xlsx
-│   ├── Returns_Data.xlsx
-│   ├── Store_Data.xlsx
-│   └── Product_Data.xlsx
+│   ├── Customers.csv
+│   ├── Transactions.csv
+│   ├── Returns.csv
+│   ├── Stores.csv
+│   ├── Regions.csv
+│   └── Products.csv
 │
 ├── PowerBI Files/
 │   ├── Customer_Analysis.pbix
@@ -206,8 +207,6 @@ Dashboard Project/
 │   └── Product_Analysis.pbix
 │
 └── Documentation/
-    ├── Data_Dictionary.pdf
-    ├── User_Manual.pdf
     └── README.md
 ```
 
